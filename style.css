@@ -200,10 +200,10 @@ tbody td{
 
   .search_box button {
     border: 0;
-    border-radius: 50%;
+    border-radius: 100%;
     background:var(--orange-color);
     cursor: pointer;
-    width: 3rem;
+    width: 6rem;
     height: 3rem;
   }
 
