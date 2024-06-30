@@ -50,18 +50,6 @@ html{
   justify-content: center;
 }
 
-
-
-/* #wVideo {
-  background-image: url('./videos/clearsky.mp4');
-  position: fixed;
-  width: 100%;
-  background-size: cover;
-  min-height: 100vh;
-  right: 0;
-  bottom: 0;
-} */
-
 .canvas {
     width: 90%;
     height: auto;
@@ -194,5 +182,14 @@ tbody td{
   color: var(--orange-color);
 }
 
+@media screen and (max-width:1024px){
+  .search_box{
+    width: 90%;
+    text-align: center;
+  }
 
-
+  .weather{
+    width: 60%;
+    text-align: center;
+  }
+}

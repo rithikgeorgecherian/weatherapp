@@ -1,4 +1,4 @@
-/* --------------- Weather Web App  --------------------- */
+
 let show = document.getElementById("show");
 let search = document.getElementById("search");
 let cityVal = document.getElementById("city");
@@ -34,7 +34,7 @@ let getWeather = () => {
   switch (cityWeather) {
    case "Clear":
           
-       document.getElementById('wgif').style.backgroundImage = "url(./gifs/clear.gif)"
+       document.getElementById('wgif').style.backgroundImage = "url(./gifs/clear1.gif)"
        break;
        
    case "Clouds":
@@ -65,7 +65,7 @@ let getWeather = () => {
 
    default:
    
-       document.getElementById('canvas').style.backgroundImage = "url(./gifs/thunderstorm.gif)"
+       document.getElementById('canvas').style.backgroundImage = "url(./gifs/clear1.gif)"
        break;   
         }
       
