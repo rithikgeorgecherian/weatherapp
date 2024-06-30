@@ -5,6 +5,7 @@
 :root {
     --orange-color: rgb(246, 99, 53);
     --dark-color:white;
+    --black-color: black;
     --border: rgba(255, 255, 255, 0.25);
     --background: rgba(255, 255, 255, 0.1);
     --box_shadow: rgba(3, 46, 87, 0.3);
@@ -96,6 +97,10 @@ html{
   cursor: pointer;
   width: 3rem;
   height: 3rem;
+}
+
+#search i{
+  color: var(--black-color);
 }
 
 .error {
@@ -191,5 +196,18 @@ tbody td{
   .weather{
     width: 60%;
     text-align: center;
+  }
+
+  .search_box button {
+    border: 0;
+    border-radius: 50%;
+    background:var(--orange-color);
+    cursor: pointer;
+    width: 3rem;
+    height: 3rem;
+  }
+
+  #search i{
+    color: var(--black-color);
   }
 }
