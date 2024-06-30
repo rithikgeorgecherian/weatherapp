@@ -91,7 +91,6 @@ html{
   color: var(--dark-color);
 }
 .search_box button {
-  border: 0;
   border-radius: 50%;
   background:var(--orange-color);
   cursor: pointer;
@@ -199,11 +198,10 @@ tbody td{
   }
 
   .search_box button {
-    border: 0;
-    border-radius: 100%;
+    border-radius: 50%;
     background:var(--orange-color);
     cursor: pointer;
-    width: 6rem;
+    width: 3rem;
     height: 3rem;
   }
 
