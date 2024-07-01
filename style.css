@@ -198,6 +198,7 @@ tbody td{
   }
 
   .search_box button {
+    border: 0;
     border-radius: 50%;
     background:var(--orange-color);
     cursor: pointer;
